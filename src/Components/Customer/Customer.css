@@ -1,0 +1,46 @@
+/* Container for the slider */
+.slider-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Hide overflowing content */
+}
+
+/* Individual slides */
+.transition-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Slide visibility and positioning */
+.slide-in {
+    transform: translateX(0);
+}
+
+.hidden-slide {
+    transform: translateX(100%);
+}
+
+/* Ensure content inside slides does not overflow */
+.slide-content {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Button styling and positioning */
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.rr {
+    width: 40px; /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+}

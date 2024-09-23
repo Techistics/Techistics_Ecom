@@ -1,0 +1,17 @@
+.head{
+    color: black;
+}
+
+.head:hover{
+    color: brown;
+}
+
+.und {
+    
+    transition: transform 0.5s ease-in; 
+    transform: scaleX(1); 
+}
+
+.und:hover {
+    transform: scaleX(1.02); 
+}

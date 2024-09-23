@@ -1,0 +1,34 @@
+.hov {
+    transition: transform 0.2s ease-in 0.2s;
+    transform-origin: center;
+}
+
+.hov:hover {
+    transform: scale(1.05);
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+.foont{
+    font-size: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}

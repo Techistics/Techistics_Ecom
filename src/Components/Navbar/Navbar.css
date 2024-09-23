@@ -1,0 +1,90 @@
+.facebook {
+    transition: transform 0.5s, filter 0.5s;
+    transform: scaleY(1); 
+}
+
+.facebook:hover {
+    transform: scaleX(-1);
+    filter: brightness(0) saturate(100%) invert(25%) sepia(100%) saturate(6248%) hue-rotate(358deg) brightness(99%) contrast(102%);
+}
+
+.instagram{
+    transition: transform 0.5s ;
+    transform: scaleY(1);
+}
+
+.instagram:hover {
+    transform: scaleX(-1);
+    filter: brightness(0) saturate(100%) invert(25%) sepia(100%) saturate(6248%) hue-rotate(358deg) brightness(99%) contrast(102%);
+}
+
+.twitter{
+    transition: transform 0.5s ;
+    transform: scaleY(1);
+}
+
+.twitter:hover {
+    transform: scaleX(-1);
+    filter: brightness(0) saturate(100%) invert(25%) sepia(100%) saturate(6248%) hue-rotate(358deg) brightness(99%) contrast(102%);
+}
+
+.youtube{
+    transition: transform 0.5s ;
+    transform: scaleY(1);
+}
+
+.youtube:hover {
+    transform: scaleX(-1);
+    filter: brightness(0) saturate(100%) invert(25%) sepia(100%) saturate(6248%) hue-rotate(358deg) brightness(99%) contrast(102%);
+}
+
+.linkin{
+    transition: transform 0.5s ;
+    transform: scaleY(1);
+}
+
+.linkin:hover {
+    transform: scaleX(-1);
+    filter: brightness(0) saturate(100%) invert(25%) sepia(100%) saturate(6248%) hue-rotate(358deg) brightness(99%) contrast(102%);
+}
+
+.home:hover{
+    color: red;
+}
+
+.Women:hover{
+    color: red;
+}
+
+.BabyCollection:hover{
+    color: red;
+}
+
+.Pages:hover{
+    color: red;
+}
+
+.Blog:hover{
+    color: red;
+}
+
+.Contact:hover{
+    color:red;
+}
+
+.Men:hover{
+    color:red;
+}
+
+.user:hover{
+    color:red;
+}
+
+.mag:hover{
+    color: red;
+}
+
+.cart:hover{
+    color: red;
+}
+
